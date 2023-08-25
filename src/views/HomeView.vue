@@ -89,7 +89,7 @@ import BuilderComponent from '@/modules/builder/domain/BuilderComponent';
 import {getBuilderComponents} from '@/modules/builder/application/getBuilderComponents';
 import BuilderComponentRepository from '@/modules/builder/domain/BuilderComponentRepository';
 import createBuilderComponentRepository from '@/modules/builder/infra/builderComponent.repository';
-import {generateUuid} from '@/utils/generateUUid';
+import {generateUuid} from '@/utils/generateUuid';
 import BuilderTextForm from '@/modules/builder/ui/BuilderTextForm.vue';
 import BuilderImageForm from '@/modules/builder/ui/BuilderImageForm.vue';
 import {builderComponents} from '@/modules/consumer/ui';
