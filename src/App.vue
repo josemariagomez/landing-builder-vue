@@ -3,7 +3,7 @@ import {RouterView} from 'vue-router';
 </script>
 
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen h-screen overflow-hidden">
     <header>
       <nav class="border-b bg-white w-full flex items-center justify-between px-7 py-4">
         <div class="font-semibold">builder</div>
@@ -17,9 +17,7 @@ import {RouterView} from 'vue-router';
       </nav>
     </header>
 
-    <div class="flex-1 flex flex-col">
-      <RouterView />
-    </div>
+    <RouterView />
   </div>
 </template>
 
