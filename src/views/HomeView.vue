@@ -82,12 +82,12 @@
 </template>
 
 <script setup lang="ts">
-import {Ref, ref} from 'vue';
+import {type Ref, ref} from 'vue';
 import draggable from 'vuedraggable';
-import PageComponent from '@/modules/consumer/domain/PageComponent';
-import BuilderComponent from '@/modules/builder/domain/BuilderComponent';
+import type PageComponent from '@/modules/consumer/domain/PageComponent';
+import type BuilderComponent from '@/modules/builder/domain/BuilderComponent';
 import {getBuilderComponents} from '@/modules/builder/application/getBuilderComponents';
-import BuilderComponentRepository from '@/modules/builder/domain/BuilderComponentRepository';
+import type BuilderComponentRepository from '@/modules/builder/domain/BuilderComponentRepository';
 import createBuilderComponentRepository from '@/modules/builder/infra/builderComponent.repository';
 import {generateUuid} from '@/utils/generateUuid';
 import BuilderTextForm from '@/modules/builder/ui/BuilderTextForm.vue';

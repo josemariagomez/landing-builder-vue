@@ -24,8 +24,8 @@
 </template>
 
 <script setup lang="ts">
-import PageComponent from '@/modules/consumer/domain/PageComponent';
-import {PropType} from 'vue';
+import type PageComponent from '@/modules/consumer/domain/PageComponent';
+import {type PropType} from 'vue';
 import {RadioGroup, RadioGroupOption} from '@headlessui/vue';
 
 const defaultImages: Array<string> = [

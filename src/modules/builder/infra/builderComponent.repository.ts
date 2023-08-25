@@ -1,5 +1,5 @@
-import BuilderComponent from '../domain/BuilderComponent';
-import BuilderComponentRepository from '../domain/BuilderComponentRepository';
+import type BuilderComponent from '../domain/BuilderComponent';
+import type BuilderComponentRepository from '../domain/BuilderComponentRepository';
 
 const getBuilderComponents = (): BuilderComponent[] => {
   return [
